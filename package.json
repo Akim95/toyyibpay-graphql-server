@@ -1,0 +1,30 @@
+{
+  "name": "toyyibpay-graphql",
+  "version": "1.0.0",
+  "description": "ToyyibPay GraphQL API Server",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index",
+    "compile": "webpack",
+    "pretty": "prettier --single-quote --trailing-comma es5 --write 'src/**/*.js'"
+  },
+  "keywords": ["toyyibpay", "graphql"],
+  "author": "Akim95 <m.akmalhakim95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.9.5",
+    "graphql": "^14.5.8",
+    "toyyibpay-js-sdk": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.3",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/runtime": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "dotenv": "^8.1.0",
+    "prettier": "^1.18.2",
+    "webpack": "^4.41.0"
+  }
+}
