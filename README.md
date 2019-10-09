@@ -13,7 +13,7 @@ npm install
 ## 3. Set API Key to .env file
 ```
 API_URI=https://dev.toyyibpay.com/index.php/api/
-API_KEY=your api key key
+API_KEY=your api key
 ```
 
 ## 4. Run compile command or ```webpack``` command
