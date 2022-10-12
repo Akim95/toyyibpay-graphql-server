@@ -12,7 +12,7 @@
   "author": "Akim95 <m.akmalhakim95@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "apollo-server": "^2.9.5",
+    "apollo-server": "^2.25.4",
     "graphql": "^14.5.8",
     "toyyibpay-js-sdk": "^1.0.2"
   },
